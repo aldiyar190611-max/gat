@@ -6,7 +6,7 @@ from datetime import timedelta
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from scipy.stats import norm as sp_norm
 
-from core.data import CLEARING_DAYS, is_business_day
+from .data import CLEARING_DAYS, is_business_day
 
 FEATURE_COLS = [
     "dow", "dom", "month", "is_weekend", "is_month_end", "is_month_start", "is_biz",

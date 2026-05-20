@@ -1,7 +1,7 @@
 from __future__ import annotations
 import pandas as pd
 import numpy as np
-from core.data import FX_RATES, CLEARING_DAYS, CHANNEL_RELIABILITY
+from .data import FX_RATES, CLEARING_DAYS, CHANNEL_RELIABILITY
 
 # ── Severity helpers ──────────────────────────────────────────────────────────
 SEV_COLORS = {"CRITICAL": "#FF4444", "HIGH": "#FF8800", "MEDIUM": "#FFCC00", "LOW": "#44AA44"}
